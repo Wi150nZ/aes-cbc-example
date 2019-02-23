@@ -1,0 +1,16 @@
+{
+  "name": "aes-example",
+  "version": "1.0.0",
+  "description": "this is an example of using node's crypto module to perform an aes encryption + decryption",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crypto",
+    "aes"
+  ],
+  "author": "wilson",
+  "license": "MIT"
+}
