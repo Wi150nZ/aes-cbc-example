@@ -5,8 +5,6 @@ const config = {
   private_key: 'VB47upl4ZEqGkb5a'
 }
 
-const key = crypto.scryptSync(config.private_key, 'salt', 32)
-
 function encrypt(data) {
   const iv = crypto.randomBytes(16)
   const cipher = crypto.createCipheriv(config.algorithm, config.private_key, iv)
